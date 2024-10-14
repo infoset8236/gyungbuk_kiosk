@@ -4,7 +4,7 @@
 	align-items: center;
 	flex-direction: column;
 	height: 100vh;
-	background: url('../../asset/img/type_c/course-registration/background.png') center center no-repeat;
+	background: url('../../asset/img/type_c/course_registration/background.png') center center no-repeat;
 	background-size: cover;
 }
 
@@ -137,7 +137,7 @@
 	color: #191f28;
 	border-radius: 20px;
 	background: #ebebeb;
-	background: url('../../asset/img/type_c/course-registration/arrow.svg') no-repeat right center;
+	background: url('../../asset/img/type_c/course_registration/arrow.svg') no-repeat right center;
 	background-color: #ebebeb;
 	background-position: calc(100% - 50px) center; /* 오른쪽에서 20px 이동 */
 	background-size: 96px;
@@ -277,7 +277,7 @@
 		align-items: center;
 		flex-direction: column;
 		height: 100vh;
-		background: url('../../asset/img/type_c/course-registration/background.png') center center no-repeat;
+		background: url('../../asset/img/type_c/course_registration/background.png') center center no-repeat;
 		background-size: cover;
 	}
 
@@ -410,7 +410,7 @@
 		color: #191f28;
 		border-radius: 10px;
 		background: #ebebeb;
-		background: url('../../asset/img/type_c/course-registration/arrow.svg') no-repeat right center;
+		background: url('../../asset/img/type_c/course_registration/arrow.svg') no-repeat right center;
 		background-color: #ebebeb;
 		background-position: calc(100% - 25px) center;
 		background-size: 48px;

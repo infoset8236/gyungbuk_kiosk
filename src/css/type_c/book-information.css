@@ -4,7 +4,7 @@
 	align-items: center;
 	flex-direction: column;
 	height: 100vh;
-	background: url('../../asset/img/type_c/book-information/background.png') center center no-repeat;
+	background: url('../../asset/img/type_c/book_information/background.png') center center no-repeat;
 	background-size: cover;
 }
 
@@ -324,7 +324,7 @@
 		align-items: center;
 		flex-direction: column;
 		height: 100vh;
-		background: url('../../asset/img/type_c/book-information/background.png') center center no-repeat;
+		background: url('../../asset/img/type_c/book_information/background.png') center center no-repeat;
 		background-size: cover;
 	}
 

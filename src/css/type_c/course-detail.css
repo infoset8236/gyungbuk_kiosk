@@ -4,7 +4,7 @@
 	align-items: center;
 	flex-direction: column;
 	height: 100vh;
-	background: url('../../asset/img/type_c/course-detail/background.svg') center center no-repeat;
+	background: url('../../asset/img/type_c/course_detail/background.svg') center center no-repeat;
 	background-size: cover;
 }
 
@@ -310,7 +310,7 @@
 		align-items: center;
 		flex-direction: column;
 		height: 100vh;
-		background: url('../../asset/img/type_c/course-detail/background.svg') center center no-repeat;
+		background: url('../../asset/img/type_c/course_detail/background.svg') center center no-repeat;
 		background-size: cover;
 	}
 

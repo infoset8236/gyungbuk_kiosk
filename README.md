@@ -23,5 +23,5 @@
 > 
 
 ## file name 표기법
-* kebab case
-> ex) kebab-case
+* snake case
+> ex) kebab_case
