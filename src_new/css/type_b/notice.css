@@ -82,13 +82,15 @@
 .slider {
 	position: absolute !important;
 	z-index: 100;
-	top: 2840px;
-	left: 230px;
+	top: 2790px;
+	/* left: 230px; */
 	width: 100%;
 	max-width: 1600px;
 	margin-top: 70px;
 	margin-left: 90px;
-	height: 460px;
+	height: 486px;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 .slider .item {
@@ -196,12 +198,12 @@
 	}
 
 	.slider {
-		top: 1420px;
+		top: 1395px;
 		left: 50%;
 		max-width: 800px;
 		margin-top: 35px;
 		margin-left: 45px;
-		height: 230px;
+		height: 243px;
 		transform: translateX(-50%);
 	}
 
