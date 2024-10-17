@@ -32,22 +32,29 @@
 	-ms-flex-align: start;
 	-webkit-box-pack: start;
 	-ms-flex-pack: start;
+	position: absolute;
+	transform: translateX(-50%);
+	left: 50%;
+	top: 3288px;
 }
 .faci_wrap .bx-wrapper {
 	border: 0;
 	background: none;
 	-webkit-box-shadow: 0 0 0 transparent;
 	box-shadow: 0 0 0 transparent;
+	position: absolute;
+	z-index: 111;
+	top: 1530px;
 }
 .faci_wrap .contents {
 	width: 1800px;
 	margin: 0 auto;
 }
 .faci_wrap .map_wrapper {
-	position: relative;
+	position: absolute;
 	top: 0;
-	width: 1840px;
-	width: auto;
+	width: 1800px;
+	/* width: auto; */
 	height: 1200px;
 }
 .faci_wrap .faci_tab a {
@@ -99,10 +106,11 @@
 .faci_floor {
 	font-family: 'Pretendard-Medium', sans-serif;
 	font-size: 340px;
-	font-weight: 500; /* position: absolute; */
+	font-weight: 500;
+	position: absolute;
 	line-height: normal;
-	top: calc(50% - 190px);
-	left: calc(50% - 872px);
+	top: 1000px;
+	/* left: calc(50% - 872px); */
 	color: #ffffff;
 }
 .faci_tit {
@@ -117,13 +125,14 @@
 }
 .faci_img {
 	position: absolute;
-	z-index: -1;
+	/* z-index: -1; */
 	top: 0;
-	left: calc(50% - 908px);
-	width: auto;
-	height: 1260px;
+	left: 50%;
+	width: 100%;
+	height: auto;
 	-o-object-fit: cover;
-	object-fit: cover;
+	object-fit: contain;
+	transform: translateX(-50%);
 }
 .faci_wrap .marker {
 	position: relative;
@@ -393,6 +402,7 @@
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 }
+
 .photo_frame {
 	position: relative;
 	z-index: 99999;
@@ -407,7 +417,7 @@
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	justify-content: center;
-	width: 556px;
+	width: 580px;
 	padding: 60px 40px 60px 40px;
 	border-radius: 24px;
 	background: rgba(16, 13, 16, 0.5);
@@ -856,7 +866,8 @@
 	-webkit-box-flex: 1;
 }
 .faci_wrap .bx-wrapper .bx-pager {
-	bottom: 170px;
+	top: 1236px;
+	padding-top: 0;
 }
 .faci_wrap .bx-wrapper .bx-pager.bx-default-pager a {
 	width: 24px;

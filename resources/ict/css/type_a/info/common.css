@@ -118,30 +118,25 @@
 	background-size: cover;
 }
 
-.nav li:nth-child(7) a.on {
-	background: #113b9e url('../../img/kiosk/nav-img-07.png') no-repeat center 70px;
-}
 .header {
-	position: relative;
-	z-index: 99;
+	text-align: center;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	overflow: hidden;
-	align-items: flex-start;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	justify-content: flex-start;
-	width: 2160px;
-	padding: 140px 180px 110px 180px;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
-	gap: 16px;
-	-webkit-box-align: start;
-	-ms-flex-align: start;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 	-webkit-box-pack: start;
 	-ms-flex-pack: start;
+	justify-content: flex-start;
+	width: 2160px;
+	padding: 120px 0px 80px;
 	gap: 16px;
+	overflow: hidden;
 }
 .info .header h1 {
 	font-family: 'Pretendard-SemiBold', sans-serif;
@@ -156,13 +151,12 @@
 	color: #fff;
 }
 .info .header p {
-	font-family: 'Pretendard-SemiBold', sans-serif;
-	font-size: 32px;
+	font-family: 'Pretendard-SemiBold';
 	font-weight: 600;
-	text-align: left;
+	font-size: 32px;
 	letter-spacing: 0.2em;
+	color: #8b95a1;
 	text-transform: uppercase;
-	color: #adb5bd;
 }
 .component_leave {
 	position: absolute;
@@ -377,8 +371,8 @@ html {
 	/**********************************************common**********************************************/
 	.info .header {
 		width: 1080px;
-		padding: 70px 90px 55px;
-		gap: 8px;
+		padding: 60px 0px 40px;
+		gap: 16px;
 	}
 	.info .header h1 {
 		font-size: 46px;
