@@ -192,10 +192,6 @@
 		-o-object-fit: cover;
 		object-fit: cover;
 	}
-	.notice-slide .swiper-slide img {
-		/* width: 870px; */
-		/* height: 1231px; */
-	}
 
 	.slider {
 		top: 1395px;
