@@ -902,7 +902,7 @@
 		height: 600px;
 	}
 	.faci_wrap .faci_tab {
-		top: 955px;
+		top: 970px;
 		width: 538px;
 		gap: 50px;
 	}
@@ -978,53 +978,18 @@
 	.faci_wrap .txt_box {
 		font-size: 26px;
 	}
-	.faci_wrap .marker {
-		height: 150px;
+
+	.faci_wrap .bx-wrapper {
+		top: 870px;
 	}
-	.faci_wrap .place_01 {
-		font-size: 20px;
-	}
-	.faci_wrap .place_02 {
-		font-size: 16px;
-	}
-	.faci_wrap .arc_img {
-		width: 60px;
-	}
-	.faci_wrap .shadow {
-		width: 35px;
-		height: 10px;
-	}
-	.mark_01 {
-		top: 0px;
-		left: 377px;
-	}
-	.mark_02 {
-		top: -90px;
-		left: 85px;
-	}
-	.mark_03 {
-		top: 50px;
-		left: 238px;
-	}
-	.mark_04 {
-		top: -70px;
-		left: 450px;
-	}
-	.mark_05 {
-		top: -400px;
-		left: 740px;
-	}
-	.mark_06 {
-		top: -444px;
-		left: 570px;
-	}
+
 	.small_photo {
 		top: 18%;
 		width: 900px;
 		gap: 15px;
 	}
 	.photo_frame {
-		width: 278px;
+		width: 290px;
 		padding: 30px 20px 30px 20px;
 		border-radius: 12px;
 		gap: 35px;
@@ -1046,12 +1011,12 @@
 		font-size: 20px;
 	}
 	.pic_txt {
-		font-size: 20px;
+		font-size: 26px;
 		font-weight: 600;
 	}
 	.fa_image {
 		width: 100%;
-		height: 140px;
+		height: 130px;
 		border-radius: 4px;
 	}
 	.pop-info {
@@ -1165,7 +1130,8 @@
 		font-size: 20px;
 	}
 	.faci_wrap .bx-wrapper .bx-pager {
-		bottom: 0px;
+		/* bottom: 0px; */
+		top: 590px;
 	}
 	.bg_faci_02 {
 		width: 1080px;
