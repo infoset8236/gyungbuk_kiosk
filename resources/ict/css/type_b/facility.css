@@ -401,7 +401,7 @@
 	flex-direction: row;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: flex-start;
 	width: 1800px;
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
