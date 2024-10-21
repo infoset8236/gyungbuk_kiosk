@@ -29,8 +29,12 @@
 	font-weight: 700;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	padding: 70px 280px 0 280px;
+	padding: 70px 0 0 0;
+	overflow: hidden;
 	color: #191f28;
+	text-overflow: ellipsis;
+	display: block;
+	white-space: nowrap;
 }
 .detail_wrap .contents .bookinfo-sec {
 	-webkit-box-sizing: border-box;
@@ -61,6 +65,13 @@
 	letter-spacing: -0.025em;
 	color: #4e5968;
 }
+
+.detail_wrap .contents .bookinfo-sec li:nth-child(1) span,
+.detail_wrap .contents .bookinfo-sec li:nth-child(3) span,
+.detail_wrap .contents .bookinfo-sec li:nth-child(5) span {
+	width: 160px;
+}
+
 .detail_wrap .contents .print-btn {
 	margin: 80px 0 0;
 }
@@ -85,7 +96,7 @@
 	overflow-y: scroll;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	height: 400px;
+	height: 330px;
 	padding: 0 20px 0 0;
 }
 .status-box {
@@ -115,7 +126,7 @@
 }
 .detail_wrap .detail-bookbest-list {
 	height: 560px;
-	margin: 72px 0 0 0;
+	margin: 150px 0 0 0;
 }
 .detail_wrap .thumbnail-swiper {
 	width: 100%;
@@ -251,6 +262,7 @@
 	height: 24px;
 	opacity: 1;
 	background: #8b95a1;
+	margin: 0 20px !important;
 }
 .detail_wrap .swiper-pagination-bullet-active {
 	background: #fff;
@@ -356,10 +368,14 @@
 	line-height: normal;
 	color: #242424;
 }
-.close_btn img,
+.close_btn img {
+	width: 45px;
+	height: 45px;
+}
+
 .print_btn img {
-	width: 80px;
-	height: 80px;
+	width: 56px;
+	height: 60px;
 }
 
 @media (max-width: 1080px) {
@@ -381,7 +397,7 @@
 	.detail_wrap .contents .title-sec {
 		font-size: 46px;
 		font-weight: 700;
-		padding: 35px 140px 0 140px;
+		padding: 35px 0 0 0;
 	}
 	.detail_wrap .contents .bookinfo-sec {
 		padding: 40px 120px 0 120px;
@@ -399,6 +415,12 @@
 		width: 100px;
 		letter-spacing: -0.025em;
 	}
+	.detail_wrap .contents .bookinfo-sec li:nth-child(1) span,
+	.detail_wrap .contents .bookinfo-sec li:nth-child(3) span,
+	.detail_wrap .contents .bookinfo-sec li:nth-child(5) span {
+		width: 80px;
+	}
+
 	.detail_wrap .contents .print-btn {
 		margin: 40px 0 0;
 	}
@@ -413,7 +435,7 @@
 		padding: 60px 0 0 0px;
 	}
 	.inner-scroll {
-		height: 200px;
+		height: 165px;
 		padding: 0 20px 0 0;
 	}
 	.status-box {
@@ -425,7 +447,7 @@
 	}
 	.detail_wrap .detail-bookbest-list {
 		height: 280px;
-		margin: 36px 0 0 0;
+		margin: 75px 0 0 0;
 	}
 	.detail_wrap .thumbnail-swiper {
 		width: 100%;
@@ -502,6 +524,7 @@
 	.detail_wrap .swiper-pagination-bullet {
 		width: 12px;
 		height: 12px;
+		margin: 0 10px !important;
 	}
 	.popup-content {
 		width: 900px;
@@ -532,9 +555,13 @@
 		font-size: 30px;
 		font-weight: 500;
 	}
-	.close_btn img,
+	.close_btn img {
+		width: 22px;
+		height: 22px;
+	}
+
 	.print_btn img {
-		width: 40px;
-		height: 40px;
+		width: 28px;
+		height: 30px;
 	}
 }
